@@ -1,4 +1,4 @@
-package com.faa.leetcode;
+package com.faa.leetcode.sorting;
 
 import java.util.ArrayList;
 import java.util.HashMap;

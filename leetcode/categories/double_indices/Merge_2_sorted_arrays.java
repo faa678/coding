@@ -1,4 +1,4 @@
-package com.faa.leetcode;
+package com.faa.leetcode.double_indices;
 
 public class Merge_2_sorted_arrays {
 

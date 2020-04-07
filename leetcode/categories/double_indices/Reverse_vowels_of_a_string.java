@@ -1,4 +1,4 @@
-package com.faa.leetcode;
+package com.faa.leetcode.double_indices;
 
 import java.util.Arrays;
 import java.util.HashMap;
