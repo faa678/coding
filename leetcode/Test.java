@@ -1,12 +1,9 @@
-package com.faa.leetcode;
+package com.faa.coding.leetcode;
 
 import javafx.util.Pair;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
-import java.util.concurrent.locks.ReentrantLock;
-
 
 
 public class Test {
@@ -15,7 +12,6 @@ public class Test {
     int dy[] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
 
-ReentrantLock
     public static void test(AtomicInteger at) {
         System.out.println(at.get());
         System.out.println(at.getAndAdd(3));
