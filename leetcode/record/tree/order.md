@@ -1,6 +1,6 @@
 #### [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
-<font color=green>简单</font>
+<font color=green>`简单`</font>
 
 给你二叉树的根节点 `root` ，返回它节点值的 **前序** 遍历。
 
@@ -145,7 +145,7 @@ class Solution {
 
 #### [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
-<font color=green>简单</font>
+<font color=green>`简单`</font>
 
 给定一个二叉树，返回它的 *后序* 遍历。
 
@@ -253,7 +253,7 @@ class Solution {
 
 #### [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-<font color=green>简单</font>
+<font color=green>`简单`</font>
 
 给定一个二叉树的根节点 `root` ，返回它的 **中序** 遍历。
 

@@ -1,6 +1,6 @@
 #### [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
 
-<font color=green>简单</font>
+<font color=green>`简单`</font>
 
 给定一个非空二叉树, 返回一个由每层节点平均值组成的数组。
 
@@ -82,7 +82,7 @@ class Solution {
 
 #### [513. 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)
 
-<font color=orange>中等</font>
+<font color=orange>`中等`</font>
 
 给定一个二叉树的 **根节点** `root`，请找出该二叉树的 **最底层 最左边** 节点的值。
 
