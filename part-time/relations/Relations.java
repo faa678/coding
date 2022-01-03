@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-public class SwingLoginExample {
+public class Relations {
     static int name = 0;
     static int rela = 0;
     static String result = "";
@@ -54,7 +54,7 @@ public class SwingLoginExample {
         human.addItem("哥哥");
         human.addItem("姐姐");
         human.addItem("弟弟");
-        human.setBounds(50, 20, 80, 25);
+        human.setBounds(50, 20, 100, 25);
         panel.add(human);
         human.addItemListener(new ItemListener() {
             @Override
@@ -70,7 +70,7 @@ public class SwingLoginExample {
         relation.addItem("的女儿");
         relation.addItem("的兄弟");
         relation.addItem("的姐姐");
-        relation.setBounds(190, 20, 80, 25);
+        relation.setBounds(190, 20, 100, 25);
         panel.add(relation);
         relation.addItemListener(new ItemListener() {
             @Override
@@ -104,7 +104,11 @@ public class SwingLoginExample {
         switch(a) {
             case 0:
             case 1:
-                if (b == 2) {
+                if (b == 0) {
+                    return "爷爷";
+                } else if (b == 1) {
+                    return "奶奶";
+                } else if (b == 2) {
                     return "哥哥,弟弟";
                 } else if (b == 3) {
                     return "姐姐";
